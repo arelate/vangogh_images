@@ -1,3 +1,3 @@
-module github.com/arelatevangogh_images
+module github.com/arelate/vangogh_images
 
 go 1.16
