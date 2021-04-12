@@ -11,7 +11,6 @@ const (
 	Background
 	GalaxyBackground
 	Screenshots
-	Video
 )
 
 var imageTypeStrings = map[ImageType]string{
@@ -23,7 +22,6 @@ var imageTypeStrings = map[ImageType]string{
 	Background:       "background",
 	GalaxyBackground: "galaxy-background",
 	Screenshots:      "screenshots",
-	Video:            "video",
 }
 
 func (it ImageType) String() string {
