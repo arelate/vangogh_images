@@ -1,5 +1,6 @@
 package vangogh_images
 
+//starting with empty collection and no image types require auth at the moment
 var imageTypeRequiresAuth []ImageType
 
 func RequiresAuth(it ImageType) bool {
